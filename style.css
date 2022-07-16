@@ -78,7 +78,15 @@ section {
 .about__links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-size: 40px;
+  color: #343a3f;
+}
+
+a {
+  padding: 10px;
+}
+
+a:visited {
   color: #343a3f;
 }
