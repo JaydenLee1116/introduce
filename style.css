@@ -24,7 +24,7 @@ body {
 #avatar {
   width: 180px;
   height: 180px;
-  border: 10px solid #abc2e4;
+  border: 10px solid white;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -41,8 +41,18 @@ body {
 
 .navbar__menu__item {
   padding: 10px 0;
+  text-decoration: none;
 }
 
+.navbar__menu__item:visited {
+  color: #343a3f;
+}
+
+.navbar__menu__item:hover {
+  color: gold;
+  transform: scale(1.2);
+  transition: ease-out 300ms;
+}
 /* main */
 
 #main {
@@ -83,12 +93,18 @@ section {
   color: #343a3f;
 }
 
-a {
+.about__links > a {
   margin: 10px;
 }
 
-a:visited {
+.about__links > a:visited {
   color: #343a3f;
+}
+
+.about__links > a:hover {
+  color: gold;
+  transform: rotate(-45deg) scale(1.2);
+  transition: ease-in-out 500ms;
 }
 
 #interests {
