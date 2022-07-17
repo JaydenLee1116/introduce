@@ -84,9 +84,39 @@ section {
 }
 
 a {
-  padding: 10px;
+  margin: 10px;
 }
 
 a:visited {
   color: #343a3f;
+}
+
+#interests {
+  padding: 100px 0 250px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#interests > h1 {
+  color: #343a3f;
+  font-size: 60px;
+}
+
+.interests__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.interests__menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.interests__menu__item__logo {
+  color: #343a3f;
+  font-size: 100px;
 }
