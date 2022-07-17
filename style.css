@@ -42,9 +42,7 @@ body {
 .navbar__menu__item {
   padding: 10px 0;
   text-decoration: none;
-}
-
-.navbar__menu__item:visited {
+  cursor: pointer;
   color: #343a3f;
 }
 
@@ -53,6 +51,7 @@ body {
   transform: scale(1.2);
   transition: ease-out 300ms;
 }
+
 /* main */
 
 #main {
