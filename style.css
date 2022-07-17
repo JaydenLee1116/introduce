@@ -120,3 +120,41 @@ a:visited {
   color: #343a3f;
   font-size: 100px;
 }
+
+.interests__menu__item__description {
+  font-size: 30px;
+  font-weight: bold;
+  color: #343a3f;
+}
+#mbti {
+  padding: 100px 0 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mbti > h1 {
+  color: #343a3f;
+  font-size: 60px;
+}
+
+.mbti__main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.mbti__main__img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.mbti__main__description {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #343a3f;
+  font-size: 20px;
+  font-weight: bold;
+}
