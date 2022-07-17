@@ -2,22 +2,27 @@
 
 // navbar 선택 시 해당 요소로 스크롤
 
-const about__btn = document.querySelector('#about__btn');
-const interests__btn = document.querySelector('#interests__btn');
-const mbti__btn = document.querySelector('#mbti__btn');
+const profileBtn = document.querySelector('#avatar');
+const aboutBtn = document.querySelector('#about__btn');
+const interestsBtn = document.querySelector('#interests__btn');
+const mbtiBtn = document.querySelector('#mbti__btn');
 
-const about__page = document.querySelector('#about');
-const interests__page = document.querySelector('#interests');
-const mbti__page = document.querySelector('#mbti');
+const aboutPage = document.querySelector('#about');
+const interestsPage = document.querySelector('#interests');
+const mbtiPage = document.querySelector('#mbti');
 
-about__btn.addEventListener('click', (event) => {
-  about__page.scrollIntoView({ behavior: 'smooth' });
+profileBtn.addEventListener('click', (event) => {
+  aboutPage.scrollIntoView({ behavior: 'smooth' });
 });
 
-interests__btn.addEventListener('click', (event) => {
-  interests__page.scrollIntoView({ behavior: 'smooth' });
+aboutBtn.addEventListener('click', (event) => {
+  aboutPage.scrollIntoView({ behavior: 'smooth' });
 });
 
-mbti__btn.addEventListener('click', (event) => {
-  mbti__page.scrollIntoView({ behavior: 'smooth' });
+interestsBtn.addEventListener('click', (event) => {
+  interestsPage.scrollIntoView({ behavior: 'smooth' });
+});
+
+mbtiBtn.addEventListener('click', (event) => {
+  mbtiPage.scrollIntoView({ behavior: 'smooth' });
 });
